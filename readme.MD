@@ -48,19 +48,19 @@ values.
 ## API endpoints
 
 /api/cubes
-	- GET all cubes
+- GET all cubes
 
 /api/cube/:id
-	- GET cube information
-	- DELETE cube
-	- POST new cube
-	- PUT cube update
+- GET cube information
+- DELETE cube
+- POST new cube
+- PUT cube update
 
 /api/drafts
-	- GET all drafts
+- GET all drafts
 
 /api/draft/:id
-	- GET draft information
-	- DELETE draft
-	- POST new draft
-	- PUT draft update
+- GET draft information
+- DELETE draft
+- POST new draft
+- PUT draft update
