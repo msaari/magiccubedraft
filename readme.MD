@@ -24,6 +24,9 @@ for mana fixing.
 ## Data structure
 
 - Cube
+	- Basic data
+		- Name
+		- Author
 	- List of cards in the cube
 		- Name
 		- Drafting value
@@ -41,3 +44,23 @@ for mana fixing.
 
 When a draft is finished, the point values are merged with the overall cube
 values.
+
+## API endpoints
+
+/api/cubes
+	- GET all cubes
+
+/api/cube/:id
+	- GET cube information
+	- DELETE cube
+	- POST new cube
+	- PUT cube update
+
+/api/drafts
+	- GET all drafts
+
+/api/draft/:id
+	- GET draft information
+	- DELETE draft
+	- POST new draft
+	- PUT draft update
